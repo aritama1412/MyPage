@@ -75,6 +75,10 @@
     padding-top: 100px;
 }
 
+.services {
+    overflow: hidden;
+}
+
 @media screen and (max-width: 992px) {
     .services {
         padding-top: 100px;
