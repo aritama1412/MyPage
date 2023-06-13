@@ -9,8 +9,8 @@ function App() {
 
   return (
     <div>
-      <HeroComp></HeroComp>
       <NavbarComp></NavbarComp>
+      <HeroComp></HeroComp>
 
       <GalleryComp></GalleryComp>
       <ServicesComp></ServicesComp>

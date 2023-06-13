@@ -4,24 +4,25 @@ import { Container, Navbar, Nav } from 'react-bootstrap'
 const NavbarComp = () => {
     const [changeColor, setChangeColor] = useState(false);
 
-    const changeBGColor = () => {
-        if(window.scrollY > 720){
-            setChangeColor(true);
-        }else{
-            setChangeColor(false);
-        }
-    };
+    // const changeBGColor = () => {
+    //     if(window.scrollY > 50){
+    //         setChangeColor(true);
+    //     }else{
+    //         setChangeColor(false);
+    //     }
+    // };
 
-    useEffect(() => {
-        changeBGColor();
+    // useEffect(() => {
+    //     changeBGColor();
 
-        window.addEventListener('scroll', changeBGColor);
-    })
+    //     window.addEventListener('scroll', changeBGColor);
+    // })
 
   return (
-    <div className='sticky-top'>
+    <div className='sticky-top '>
         {/* <Navbar bg="dark" variant="dark" expand='md'> */}
-        <Navbar variant="dark" expand='md' className={changeColor ? "color-active" : ""}>
+        {/* className={changeColor ? "color-active" : ""} */}
+        <Navbar variant="dark" expand='md' >
             <Container>
                 <Navbar.Brand href="#home" className='fw-bold'>CodeWin-</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

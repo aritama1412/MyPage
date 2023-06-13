@@ -14,7 +14,7 @@ const FaqComp = () => {
             </Row>
             <Row className='row-cols-lg-2 row-cols-1 g-3'>
                 <Col data-aos="fade-up" data-aos-delay="200">
-                    <Accordion defaultActiveKey="0">
+                    <Accordion>
                         <Accordion.Item eventKey="0">
                             <Accordion.Header>Accordion Item #1</Accordion.Header>
                             <Accordion.Body>
